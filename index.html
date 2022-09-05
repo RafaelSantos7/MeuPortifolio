@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@rafaelsantos.dev</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Unicons -->
+    <link rel="s~~ tylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <body>
+</head>
+     <!--===== HEADER =====-->
+     <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Rafael Santos</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">Sobre</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Habilidades</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Trabalhos</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Currículo</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <img class="menu" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAExJREFUSEtjZKAxYKSx+QyjFhAM4QEJov8EnYVfAYqjsfmA5hZQ6AFU7QMSBzT3Ac3jgOYW0DyIhr4FNI8Dmlsw9ONg1AcoIUDz0hQAbegGGXzv/l0AAAAASUVORK5CYII="/>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Rafael Santos</span><br>Web Developer</h1>
+
+                <a href="https://linktr.ee/rafaelsantosdev" class="button" target="_blank">Contato</a>
+            </div>
+
+            <div class="home__social">
+                <a href="https://github.com/RafaelSantos7" class="home__social-icon" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAAAXNSR0IArs4c6QAABKlJREFUeF7tmo2RDUEUhe9GgAgQASJABIgAESACRIAI2AgQASJABIgAEVBf1XTVVFf/vXnTc9723Fu1Zdd7M3f6nD73r+fM3KQInEm9u3NzAsSbwAkYiICbZnbbzO6Y2TUz4++5fTOzP2b2efr5Il77Sbg/VgGXzeyJmT2aQD9kUT/N7IOZvTEzft+lLSUA4J+b2dOVUHtnZs8mhax0y4txmyUE3Dezt2YGCWsa4QkSIGM3digBr1bc9TmQIeDxXhg4hAB2PbF+CyNRP9hDSGolYEvwA8GQcHcLtpU+Wgh4MSVcxXMOH45qBFDTf0ogfz4lSz4nLF1dyM7f6T6UoyR3StrYyAfDJuYSAVQ5XzP1PaGBEBEMEl6b2aXpP74n4jf3uzF9DvAoi2uC0bz9SBBAdXR91HxQIqAUelLXATDd75yYlDBQTeiK48//ZZSE4rYqABaKedllOQIAk92Yq/VroWvZ05jlCOB+qGC4jjkHJB0uNX/OrnQKCSUCGFms1Xkv3SCrX5cjgNgfD9PmzuMcsMaD4Q+/OWP3o4KhLEVALhmGhX+cKpYeQJCUU5VQ8NWD+B7raL5nigCSHY1XznrGYnIOOz1UU/EzvJyqp+YFnvoXUwSUdmHP3R+wouZ/mAFuC/+bcpYigDKSg5WUbbEDacjeZ/xTvt7aFKHOzg4lgAEZXWtPy3XfwWevErjnmrL3Ti2G+p9EnLItxgK7JwCZh5GBIgmWQhDPM7wCSjlgi2aoNAL5teDsWRJaWp0emgO2SILkmHuZBfAmBSFqGDu0DGXhvfuA3wV0d1GG1mJwz8lk7fCHQ/v5CPvCKyE3Vi7tQhbdYyTALIjDn9LbFvQAhMFhLFdRlBIxi+eQhJ6gNvtvBYq4TvNVAn+4BFwq6eJ5EIsH9Lg8ZWxAd7x0Tk+/wQteLYctw4WfWk0N4GEoRmXCjmeH8ns8qiAsoAb+JVFybcq4ngqHcMOuL42859dzhAlZufu2Ku3kvldqauJDGcANr4kAdqpZ4yy4BmotvKVA2mIGJSGn1lXGXXGogMLZbzw2bhlV1KqsGAjCH/6G2/21EMTnqVOq0AfwGWUjoSS8ds7fLfmgdPQYE9Cj4pLs9pTTmgK4Jk7IIR8cs4hWAoZMvHPgWgjg+/EhDX8DzlJrIaBnw7f0uVe/rpWAFAmEGogIjRFVCqC1WI2AXYDfkgNiMGvnxa2ElggYPuwsCUHza0i+NGCpMvQYAqh2IHit7rpFifLvtAKWelD6BH7mL+a23m+uAJosQhkV1O6sFbASMOzaMEpondWzy+mKAX7YN59bdtMaBLT48e9kEHACxFvDCXACxAiI3bsCnAAxAmL3rgAnQIyA2L0rwAkQIyB27wpwAsQIiN27ApwAMQJi964AJ0CMgNi9K8AJECMgdu8KcALECIjduwKcADECYveuACdAjIDYvSvACRAjIHbvCnACxAiI3bsCnAAxAmL3rgAnQIyA2L0rwAkQIyB27wpwAsQIiN27ApwAMQJi964AJ0CMgNi9K8AJECMgdu8KcALECIjduwKcADECYveuACdAjIDYvSvACRAjIHbvCnACxAiI3bsCxAT8BxPormEF7KExAAAAAElFTkSuQmCC"/></a>
+            </div>
+
+            <div class="home__img">
+                <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <mask id="mask0" mask-type="alpha">
+                        <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                    </mask>
+                    <g mask="url(#mask0)">
+                        <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        <image class="home__blob-img" x="" y="70" href="/assets/img/rafael.png"/>
+                    </g>
+                </svg>
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">Sobre</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img class="foto" src="/assets/img/eu.jpg" alt="">
+                </div>
+                
+                <div>
+                    <h2 class="about__subtitle">I'am Rafael</h2>
+                    <p class="about__text">Sou formado em Técnico de TI desde 2018 e venho atuando como autônomo 
+                        desde então, em 2021 me aprofundei mais em desenvolvimento web na linguagem de 
+                        JavaScript FullStack, ainda estou estudando e aprimorando meus conhecimentos. 
+                        Em 2022 comecei a cursar faculdade de tecnologo em Anélise e Desenvolvimento de Sistemas
+                    </p>           
+                </div>                                   
+            </div>
+        </section>
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Habilidades</h2>
+
+            <div class="skills__container bd-grid">          
+                <div>
+                    <h2 class="skills__subtitle">Habilidades Profissionais</h2>
+                    <p class="skills__text">
+                        Essas são minhas habilidades e estão sempre em progresso!
+                    </p>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAUVJREFUSEvVlY0tBUEURs+rAB3oABWgAjpABzpABaiAEqgAHVABJeiAnGTuy2R2Znb3JRtxk80mOz9nvu/eubti4VgtvD9/AngFDjdU9gYc5WtrChYHPAEnGyp4Bk7HFFwDV2nS8UTQS5p3A7h+HTWLSoCW9ULPZwHOgYdMgYA7YK9B2Qb209gF8DimID+RFgmYmviY37WoJnkX8KmFis8KxV2AG322klYh5DnbAb7HLHL8J036AnxqcQ9Y0noeCgZF02oVAfgALlMSbwtKLT+TAe+pauLq53kJTgnwMFFN3Rw4GFUj6CDNthzjlmpNeO17Cxj0Ide1LMrLUotcLCwPT2tT9I4YswB5ZcSmJjtutZaVZTtoEz0FNUCjmNafZwE8nX570rHOagdVmXkZlPTUP1rAfJvUaB9u2o2pgLF9muP/H/AL4pRGGVydm1YAAAAASUVORK5CYII="/>
+                            <span class="skills__name">HTML5</span>
+                        </div>
+                        <div class="skills__bar skills__html">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">95%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAVJJREFUSEvFlYFNw0AMRV8ngBHoBJQJChOUDegGZQPoBMAEtBvABNAJChvABmwA+tIZuc7lLokU1VKUKj77+3/b1wkj22Tk/BwF4BE4H8jsE7j1sTkG78B8IMAOuKwBiMFqIMBTFwb3wF0CUMBPBezUFbQGFP9vOYk8wBUgyUomSd7SgU4APuCjwMAa6s83Csox8AGlyq2hS+A5HewEMAP2IfM3sAnfJJ0eL+kFINbFHsj5G5I1xs/5PUBDkbZNjgCapIPKAE3YS3oWCbAzgBKeANZIyfYQWJnetpiS8Sw2rY2BBZk0ucZHgKyMNYAvYJqqUnV2DagA+Xy/egFoYm5SAv2W1q+BvsB0Z9nmbgGN7IG1MfCTYQHqi221kuuK8NbYYjn7AJSWTr5eANL7OmluI9gGIOnETDJaX6qLFpMZmN4yJbOkRWZH+cusad3LPzqDP/UKShlgQ6sSAAAAAElFTkSuQmCC"/>
+                            <span class="skills__name">CSS3</span>
+                        </div>
+                        <div class="skills__bar skills__css">
+                            
+                        </div>
+                        <div>
+                            <span class="skills__percentage">85%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAPVJREFUSEvtle2NQVEURZcKKGFUQAkzFaACVMBUYFRgdKAEKqADStABKiArOXciE98u8cNJ3o97887eZ++z816BB1fhwfg8nWCbSdHf4P8VvAmSw2+LzmbtdS36AqrAANgAXWAJlIAfoBLablZg4ycwBdrAKM6SfMS9HFkIVLMAVqFCgrtjuq+gH7YIrD3N3ATiCTwE1rGbGVDMZVEaWPDv2Mcv0LmWwAlNjo9pccnjSJD29IAJUA9Fni9estOVw4I0scmpAQ1AS1JJPo80XUxgsxEU1HLi1h6oSkyS4CpISbqK4Ox34cALRwluATvZ8/R/cnYFO3Y9Nxn2grYRAAAAAElFTkSuQmCC"/>
+                            <span class="skills__name">JAVASCRIPT</span>
+                        </div>
+                        <div class="skills__bar skills__js">
+                            
+                        </div>
+                        <div>
+                            <span class="skills__percentage">50%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAARBJREFUSEu9leERwUAUhL9UgA50QAlUQAd0gAoogQrQgQ7QARXQASpg1lxM5s0lcXHxZvIr83Zv9+29S6i5kprx+TtBE1gDw4rKNsAMuKf9VsEOGFQET9u2wDiP4PkjuNp1+ladBML+OGMt8inIC0IbkKUdj+pgAoGNMkCyYQUoFLcYBD1gb4D6wAEoVP2tRZbgAXQd4SWGAlmRAgrv6tIiBVFmIAILdHSkImkYFcFD9s1AQ54CS2BSB4EUiHgBzGMTnN06OAHaP9kIR7toAtLO0XK0FTQDWWBLidKnC+irIILQ/ac7otS9y140n5+hBIXrWsyKnR4cm+0yIp1cy0/RzX1wykCC///9TQ4+YVnDC5ARNhmik9p/AAAAAElFTkSuQmCC"/>
+                            <span class="skills__name">Bootstrap</span>
+                        </div>
+                        <div class="skills__bar skills__Bootstrap">
+                            
+                        </div>
+                        <div>
+                            <span class="skills__percentage">90%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAdBJREFUSEu1lesxBEEUhb+NABEgAkSACBABIkAEiAARsBEgAkSACBABIqC+re6tOz0zPbs/tqumah7d55x77mNGLHiNFozPLARHwDawmS41vaXrAXisiawR7ANXwNpAlJ/AGSBZa/URXAMnPcDvwDPwk74b2R7gGYkaq4ugD3wMXAAq3gGWEpKERvkE3ACnkaEk0Jb7QsQLYB5UfJ7ul8Me328BdylXB9GukkB1q+HwZVKtKsEjcNSxnkA3UoQ+T1YkUOVtOKUlvlPZYSXR2mKCtSivaRSRIAJ9pZLMyvvwjdCcvRbVlsU1IrC2DdGl7yYyvlPAbwKyilTtHku5tM5z5qVB8FckTh9VF+3xYC5PwWtr4k60KBL4TcXWtWpzZAOY7RaIBNGOvFPw41RJtUSXxPaGDdiIoK9atGQ3eZ/tsbpqhJ1JLstUASY1d6bRfCSpijH6PpLOMvVsbDTBTaQEAq0A38EL679rXlni0wFZGxUmWEtsPsHMUW5Ehfht4nOxqqPCvXnYuVEQ1WiPnTo0ugeHXRYjiTnJTeR93xzKZ1rgZRWVoTpZJYrDr6sP9Nw8zfXDiUASeel3bjjr3JwI2gmcAWb5J8/Tva29Cyf4BxIoZhntbxp9AAAAAElFTkSuQmCC"/>
+                            <span class="skills__name">Sass</span>
+                        </div>
+                        <div class="skills__bar skills__Sass">
+                            
+                        </div>
+                        <div>
+                            <span class="skills__percentage">45%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAVBJREFUSEu1leE1Q0EQRm8qoAN0QAXogApQgaQCVIAK6AAVhA6UQAfSQc7nzJyz1s7uJOSdkx/Jy7t39pvdeRM2fE02zGcVwT7wZAWdAu+Z4rICwefAtkG/gOOMJCs4Bx6qilOSkUCV3wKK5GQdSU9QxqK8FcmRfbSirUxckaDOXKwb4Nqgd8BlEVkYV0vQgov1CFwYVHH5jnJPU1ILIrhDZsAzIFiqJ6VgBPeYXq3x3hOJzqK4SsEHsDM4POqDBDoTL7YKPaLeXBXPirWn738RaGcdGLQ+J5/Abi1QRKrOt19rMeUKvPGqdlqc8oVt5e9R0mpyT1IL6iJ+wFsC/Rat5M0q039UxGFF/wWPBJHk3qLQ/fqgNeE9QUuiva9mKlYNPp+sIXwk6MXl6XThGUFPMoRnBS1JCr6KwCWaQ7o0Hv71lTmYIPHt0RttbbA/uAQgX1kZvVdDnwAAAABJRU5ErkJggg=="/>
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZdJREFUSEu1lYExBVEMRe+vABWgAlSAClABKkAFqAAdUMGnAlSADuiACpgzk+zkZ7L735rZzOzs7puXe5P7kryZJrbZxPhqITiUdCBp2x5ierfnRdLDUJBDBADfSNpYkuWnpAtJj9W+PoIrSZcj5bs1ogW3iuA/4A56J+k8MmSCPUnPtuFJEmQnks5s7cPeW/ZG/3vbc2xrR1GuTICe67bx2gj4XZX0nSSLazFrMDZ9byTgUOcBhOiIvsWyrKeW2UKZkqqnCei+JMqwxSjhtyq4mAFgu0FrnMZY9KdPdnCOBGi8YoivkjjwMRYJOuxI8BvQJiGIEZDN2pjwrcpcgS+fADGDfMi0P93ZYjQXY8Wtq8C+Mv2x86D86M7cAw5EL1B5OZCyTHGiSUiTEiUqL1u6mp5wIoDJmKrjO1onT64i/n1UAESZOUjsagfLkvr6Qv9Uw871LKdjCLUaikuHnfs7CQ1DNj7UohSZoMpy8EZDLmRg+FXOToDmnE85VlquTIjIgmyiMUq47cqbzDe2ELT0Qe+eyQn+AIklVhnz1DvpAAAAAElFTkSuQmCC"/>
+                            <span class="skills__name">Git+Github</span>
+                        </div>
+                        <div class="skills__bar skills__Git">
+                            
+                        </div>
+                        <div>
+                            <span class="skills__percentage">60%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAiNJREFUSEu11TusTHEQBvDfJaGkFJGQeEShUEg0JAqhEo9WQ4joEAWVRzQUXp0IoaBReJQShYQGDYlGkKhEiY4C+Tazm3PP7p5rL3eSk91z/mfmm/m+mTlT5tim5ji+LoDFOF0JPMLTVjJbsLOencXXUcl2ASTgbXzCUfzG/gpyi15yV7AC+xDAIRsHEKcEbzolyPECulTn/YBJZteoKsYBrK/smgCh7FVlvqEVLAATVZDM2k4PkSuWbHM1K5gY4DMuFMd7MA8fKuIq/ML90ugElv6NBqHhSIm2CPeqknTJxgYtee9FdVkq2YbviPhXm/Q1NQjvETY0pDtScpwj+JkCOllZnq/zdFfaMz6hNPfxSUO8zrtNgDwYHFSgUPIFm3ADB+r5TRzEcyxBKOtbP9H8DgH0HjYsAKFiL54VUI4TeDPuFnVNgJxndlL5NIDQsBzHquy8cAfLEOCtuF7gh/CkaJmPHRU02lzGm6J5aFWEogA9wEK8rIABCL9Ni06hNUHX4Ad2l3+07Nm4QYtQ1/ATH7EOj/G+/FZjO95iJRbgcGNOBol07aIBj6XBxRI2zhE8ayMaTOO8VWXnNm1Pcqo6V7voVCvbiVdFZiBatHfRuwJY+z92UQQMQAYpv+mOTGksgvdnJiKngnaLd4qcwwTofwe+1f/edFawdFHWSQCySgad09Rhpk9mnGMjv1YVvOu8U+R2Q8zqfqYKZhV0Eor+GeAPysh0GQodk7sAAAAASUVORK5CYII="/>
+                            <span class="skills__name">React</span>
+                        </div>
+                        <div class="skills__bar skills__React">
+                            
+                        </div>
+                        <div>
+                            <span class="skills__percentage">15%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAjpJREFUSEu1lbFLllEUxn9CEEKQi4OTtYpDCU4O1uLQZINgIGaDiDRkkUMt5dLQYg2F4lAuOlrg5KJOLYE6VRCk/0E1BLkUv49z5Xbf95M+xQsfL9+99z3Pec55zvO2ccar7YzjUwdwBbgN/AjwDmAT8HkV+A5cAvaL5Dx/C+zm+yXABNAF/IogBjPQb+AnMBL7W8B7YBiYAXaAd8DleHreWDmAWd0AJgFZ5OsWsFpTTjPeBt7EmYE3gA9AAyQHeBr054tALyPT7ib9MtAecC/OHwPnAeNVANx7UgS6D5SgJdZd4BlwEZiLwwrAi2BQAowBncBX4CEwmEU389chiOk4exBA/83gJrAGmMAnYDEDuBPlUwj2TfBZ4GNdD1TQOWCp4C/lxKpsdjrzeS2kLJjqqqjIDLxU1jsHMOOkGAPY4IOQsu+uA72AyVYA3LAMiWq6cxwD78hqNC5/BhbyISwHTV1/CUUkgKmou5k6TEmO6VwWMhsA+mPwjqpcAkizB3iV9WE5SqEVWNtcRena9SjLn5gJ7aIyaOmyLLQIM9WPZPAIGAf6YoDyoVOqMnMGZOn7lrrRhzqzSyyGwh7aQx2+4M+XcxZaxfPwsAthiPqTSdYCuG8gy6HkLM23oKeZ6Vk5gFbisizp17QHxQgc/VVZZiSwDHOAf6yhDNDqB8fxLwHs0WHUvpJgqwA20LLlfqXRraSan5aBJbInydrTUxXVrlYZGMSgNjp9GlVV03USgOPinboHLQX38l+BGHgZXfCYlAAAAABJRU5ErkJggg=="/>
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAATNJREFUSEu1lW1NBDEURc8qYCWAA1AAKAAHgAJAAaAAUAA4AAWAAnAA62AlbE4yTZpmuq+d7PTPJJPpO+/e9zELZj6LmePTC7gcEnptTawHcAh8DoFPgd8WSCtgCfwA+0PQf+AIWEeQVsATcF0E06arXQBOMmvKeFr1tQ3SouAdOKsEMbiQ6okAev4X2HAAWJPREwFsy5cAYB2qbRsB7oG7APAA+N0kBWZ2kd1cAbbsXvbuG7ARJgFKBQbzHGfRnoGbqQAvPhbZloBbwDmZpKDsojEFTnR1bURFNit7PVlSArb67+UWQD7JH0ORE3Ank2wiaRfZktpmZ70BaX1XO7lFQbqsVWnvnAOu7/D0AOx/lfg083BVt9YgzzJNbHVyS0k9CryrNSqY5ZcZ+j32Qa+CbsgG7eEtGSBhzmMAAAAASUVORK5CYII="/>
+                            <span class="skills__name">Banco de Dados - SQL - MongoDB</span>
+                        </div>
+                        <div class="skills__bar skills__Banco">
+                            
+                        </div>
+                        <div>
+                            <span class="skills__percentage">10%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--===== WORK =====-->
+        <section class="work section" id="work">
+            <h2 class="section-title">Trabalhos</h2>
+
+            <div class="work__container bd-grid">
+                <a href="" class="work__img">
+                    <img src="assets/img/work3.jpg" alt="">
+                </a>
+                <a href="" class="work__img">
+                    <img src="assets/img/portfolio2.jpg" alt="">
+                </a>
+                <a href="" class="work__img">
+                    <img src="assets/img/portfolio3.jpg" alt="">
+                </a>
+            </div>
+        </section>
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Currículo</h2>
+            <a  class="buttons" href="/assets/pdf/Rafael Santos.pdf" target="_blank">Meu Currículo</a>           
+        </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__title">Rafael Santos</p>
+        <div class="footer__social">
+            <a href="https://www.facebook.com/rafael.goncalvesantos" class="footer__icon" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAAA2CAYAAACMRWrdAAAAAXNSR0IArs4c6QAAAn9JREFUaEPtmPExBTEQxr9XASpABagAHVABKkAFqAAdUAEdoAJ0QAdUwHwzibmJ5LKbbGLGZGfe3B8vt7nffrubvVvgn9rin3JhgAXKbgI4AMDrsrtyyQuAD3e9ddc/SQqNYgQ4BnDiYCQPTMgrABeSxZZrpGB7AC4BrBVu/gbgFMB94f3q2yRgjDiVsrDzXurlwG5cLVlAeR/0eWTpMOZrDqxGqVcAGzMPz5qjes0sBcaaulPs+umaBNVgPU0t5Wu/Zc3FwNj9nhWNglA7M62d/z1EgsQArCuCp1oaA2OKnCm8sF6oVMpSYFzfLCVjYDx7lhRgqXTm0bDqDm/Wa8y414piL/HS8KHmohtz+uTScPofgVifnEokttViQgnBtJ0wBqZN5Ws3zUiCIF4Tgj0C2BbfDcTALHwoHiG+NATjEDt3/oReLMC4J9PR1EKwL6V3CzBumZuAlI/122EOLAaS21RSt83BeGiyRaesBCxXcxy/pB00F8Sf/7XNowSsRbCygNp2XwKWS+8u7T53QPvXfh8xphHfqKfGmvKddfrZIBXlXQBMV1OrHalquyIHaMKbW+0QXAvWdQhmBFnwkkG4Boxqca5keptb7YtmDVj3F00fPcnBWgrWpBNOZc+d+LmPOSVg/JB6aJ57gcMcGJfPKacFa66U55OAcS3PN37sDBuKFIyNgh91zM+rlPJSMN7PbsnDmGnk58kc2Lv7HkLVm3Q/C7CpDyrIn4cNJw9CUJ1uCoWAGsVa17up/wFmGs4OzoZiHYJsusVQzDScHZwNxToE2XSLoZhpODs4G4p1CLLpFkMx03B2cDYU6xBk0y2GYqbh7OBsKNYhyKZbfAP6fHg3BnzVbAAAAABJRU5ErkJggg=="/></a>
+            <a href="https://www.instagram.com/rafaelsantos.dev/" class="footer__icon" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAAA2CAYAAACMRWrdAAAAAXNSR0IArs4c6QAAAqZJREFUaEPtmDmKFVEUhr9egRqLtCIGGjiBsboDBwzERFegBg0i4oCIiIG6AgWNFKcVqLGIJt0dtWggproC5WvuhafU9Hh1Xlc190BRSdV/z3/mexbYpLKwSXlRiI3Ns9N47CCwCPieRr4A3wHfc5MuxC4BN4CtM2r1C7gJPJoRp9PvTcQk8ho41gmp+0fvgZOARMOkiZgKHA06WezjQdjrsHXEDL8HkQcDF4AnUWfUEfuWCkUf50rAsNNYkxHgGbv6OKAKo4qYVe9zTwe+BU4kLN/m7KQciqqWVcQsFu86EPudQukNYM7sTK3A/88DW5LSKq9Uhbd55r+9SxUxS7LlvUn0hMrXVTZJSvgAYMj5VFXXW6kFDILYZHjtBo4A+4A/wArwEfiaNLUpS65OBkPM8NMbemp/srY9aVJeJo8vp9BsytfBEHNqMFesZveB0zWueAEspVHqIXCx5rvBEMvJfgZ43pIYkn6VcvHx0IltS2F4HdDaTXINuNMSjoPxWCam0rdbiF0F7o6FWA7FU4BFoklsyLktDD4Uc/HYAdwDztYwewZcAX4Aoygelnkrou89qayf+4/c05R/a2Mq93Kw6eYxaTtwGNibGvQq8An4ObYGnZ0jORuzo1KVOEibV21rhLlWxa5DsOHofcoh1p2G4vgkGZt4F5nrENzntaWN3FyvLSrT50Wzjpxedu4MkbobdNWlsG8FLqdW0DfuOt5GLXM+BGy//jFQ2/rNy2LfmypJGREbtn7LFlAJpwe3wLOIOSWOT7h02QRnJayWLlGnXaDa8yxGg1txh1s34oBpPBZxfhhmIRZm2iDg4rEgw4bBFo+FmTYIuHgsyLBhsMVjYaYNAi4eCzJsGGzxWJhpg4CLx4IMGwZbPBZm2iDg4rEgw4bB/gXBxoY38RPr+QAAAABJRU5ErkJggg=="/></a>
+            <a href="https://www.linkedin.com/in/rafael-santos-12b773156/" class="footer__icon" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAAA2CAYAAACMRWrdAAAAAXNSR0IArs4c6QAAAalJREFUaEPtmQ1NA0EUhL8qAAk4AAcFB6AAHEAVAAoABSABFAAOcFBwAAogk9wlm81eKelNjt2+lzRp09zszsy+n21nNBqzRnkRxGpzdsixY2DfTOYdeAI+HeuUiJ0B947FCpgnwKNjrRKxK+DSsVgB8xrQeqPHVhP7Ah66I6Pc01HdGUniSR27Ay4SIrfAeQvEjoCXhMgh8NwCsQUgl/qQezctEFOfUeV6Aw6697stEBuJQxFm0uLxWsixebdNbayPPeAU+OiqqByWs3J5qJJOSixfPG3gaR9UUREBvfIQQRWgfEyrgpgc0/w3FPp+mX1ZBbF0z3KoNNzqeKauVUNM+aQeJ2IioR6YEtQEozzsoxpiuSP59J4P2NUQ+/4lh4LYps1znWvLuuVeewnHkgY/2UUzHIuj+E/6mGa8/KKpuVCR50f+edWzen7SPrZp5V31fBD7q7pb9YOpBljlkAZaZ+iKo6HYEvFvi0VWI2g4ZhTXAh2OWWQ1goZjRnEt0OGYRVYjaDhmFNcCHY5ZZDWChmNGcS3Q4ZhFViNoOGYU1wIdjllkNYL+ACqDijf84FoxAAAAAElFTkSuQmCC"/></a>
+        </div>
+        <p class="footer__copy">&#169;2022 All rigths reserved</p>
+    </footer>
+
+
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+
+
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>
