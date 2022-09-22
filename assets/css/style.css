@@ -49,6 +49,7 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--second-color);
+  background-color: rgba(196, 211, 223, 0.8);
 }
 
 h1, h2, p {
@@ -282,7 +283,7 @@ img {
 }
 
 .about__img .foto {
-    width: 350px;
+    width: 250px;
     border-radius: .5rem;
 }
 
@@ -349,20 +350,12 @@ img {
   width: 90%;
 }
 
-.skills__Sass {
-  width: 45%;
-}
-
 .skills__Git {
   width: 60%;
 }
 
 .skills__React {
   width: 15%;
-}
-
-.skills__Banco {
-  width: 10%;
 }
   
 
