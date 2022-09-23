@@ -343,7 +343,7 @@ img {
 }
 
 .skills__js {
-  width: 50%;
+  width: 65%;
 }
 
 .skills__Bootstrap {
@@ -357,7 +357,10 @@ img {
 .skills__React {
   width: 15%;
 }
-  
+
+.skills__figma {
+  width: 35%;
+}
 
 .skills__img {
   border-radius: .5rem;
